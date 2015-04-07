@@ -1,0 +1,66 @@
+﻿@model IEnumerable<TaskProject.Models.TaskDetail>
+@using TaskProject.Helpers;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@using (Html.BeginForm("Search", "Task"))
+{
+    @Html.Editor("SearchBox")
+    <input type="submit" value="Search" />
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.employee.EmployeeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.status.StatusName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaskName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaskDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AssignDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.employee.EmployeeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.status.StatusName)
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.TaskName)*@
+            @Html.Truncate(item.TaskName, 20);
+        </td>
+        <td>
+            @Html.Truncate(item.TaskDescription, 20);
+            @*@Html.DisplayFor(modelItem => item.TaskDescription)*@
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AssignDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TaskDetailId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.TaskDetailId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TaskDetailId })
+        </td>
+    </tr>
+}
+
+</table>

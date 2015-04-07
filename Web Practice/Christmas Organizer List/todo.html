@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Christmas List</title>
+		<meta charset="UTF-8" />
+		
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				
+				getData();
+				
+				// diverts form input to ajax, prevents default page update
+				$("#form").bind("submit", function(e) {  
+					e.preventDefault();				
+					
+					// inserts using todo.php asynchronously
+					$.ajax({
+						type : "POST",
+						url : "todo.php",
+						data : {
+							item : $("#item").val()
+						},
+						dataType : "xml",
+						success : function(result) {
+							if(result == false) {
+								$("#userMessage").html("An error has occurred.");
+							} else {
+								getData();
+							}
+						}
+					});
+				});
+			});
+			
+			// selects list items and creates list w/ delete 
+			function getData() {
+				$.ajax({
+					type : "GET",
+					url : "todo.php",
+					dataType : "json",
+					success : function(data) {
+						if($.trim(data) != "false") {
+							
+							$("#todoList").html("");
+							
+							for(var key in data) {
+								var li = $("<li>");
+								var a = $("<a>");
+								
+								$(a).attr("href", "delete.php?id=" + key);
+								$(a).html("Delete");
+								$(li).append(data[key]);
+								$(li).append(a);
+								$("#todoList").append(li);
+							}
+						} else {
+							window.location.href = "index.html";
+						}
+					}
+				});
+			}
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<section id="page-wrapper">
+			<header>
+				Christmas List
+			</header>
+			<p style="float: right;">
+				<input id="logout" type="button" value="Logout" onclick="window.location.href='logout.php';" />
+			</p>
+			<article>
+				<h3 id="userMessage"> </h3>
+				<form id="form" action="todo.php" method="post">
+					<fieldset>
+						<legend>Add Gift Item</legend>
+						<p>
+							<label for="item">Item Name:</label>
+							<input type="text" id="item" name="item" />
+						</p>
+						<p>
+							<label>&nbsp;</label>
+							<input type="submit" value="Add Item" />
+							<input type="reset" value="Clear" />
+						</p>
+					</fieldset>
+				</form>
+				<section>
+					<h3>Christmas List:</h3>
+					<ul id="todoList"> </ul>
+				</section>
+			</article>
+			<footer>
+				Have a Great Christmas!
+			</footer>
+		</section>
+	</body>
+</html>

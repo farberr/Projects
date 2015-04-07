@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>"The Reach"</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <a href="landing.html"><img src="http://i.imgur.com/Fy93Lfq.png" ></a>
+    </div>
+			
+
+	
+
+    <div class ="main">
+        <div class="cube2">
+		
+<!--Registration form-->
+            <h3>Match-making Registration</h3>
+			<div id="wrapper">
+				<h4>User Information</h4>
+				<form id="frmRegister" name="register" method="POST" action="landing.html">
+				<label class="labels"> First Name: <input id="fname" type="text" name="first_name" placeholder="First Name" /></label>&emsp;&emsp;
+				<label class="labels"> Last Name: <input id="lname" type="text" name="last_name" placeholder="Last Name"/> </label></br>
+				<label class="labels"> Email: <input id="email" type="text" name="email" placeholder="Email" /></label>&emsp;&emsp;
+				<label class="labels"> Phone number: <input id="phone" type="text" name="phone" placeholder="Phone Number" /></label></br>
+
+				
+				<div id="sex">
+				<label>Male<input id="male" type="radio" name="sex" value="M" /></label>
+				<label>Female<input id="female" type="radio" name="sex" value="F" /></label>
+				</div>
+				
+				<p>
+				<label class="labels"> Field or Industry: <input id="industry" type="text" name="industry" placeholder="Field or Industry" /></label> </br>
+				<label class="labels"> Present Location: <input id="location" type="text" name="location" placeholder="Present Location" /></label> </br>			
+				<label class="labels"> Current Employer: <input id="school1" type="text" name="employer 1" placeholder="None" /></label> </br>
+				<label class="labels"> Current Job Title: <input id="school2" type="text" name="job 1" placeholder="None" /></label> </br><br>
+				<label class="labels"> Past Employer: <input id="school1" type="text" name="employer 2" placeholder="None" /></label> </br>
+				<label class="labels"> Past Job Title: <input id="school2" type="text" name="job 2" placeholder="None" /></label> </br>
+				<label class="labels"> Past Employer: <input id="school1" type="text" name="employer 3" placeholder="None" /></label> </br>
+				<label class="labels"> Past Job Title: <input id="school2" type="text" name="job 3" placeholder="None" /></label> </br><br>
+				
+				<label class="labels"> Hobbies:</label>
+				<textarea name="hobbies" rows="4" cols="30">What do you do in your spare time </textarea></br>
+				<label class="labels"> Free Meeting Times: <input id="free_time" type="text" name="free_time" placeholder="Free time to meet" /></label><br><br>
+			
+				<!--Create Account button-->
+				<input class="buttons" type="submit"  name="createAccount" value="Create Profile" />
+				<input class="buttons" type="submit" name="Cancel" value="Cancel"/>
+				</form>
+			</div>
+
+		</div>
+    </div>
+
+    <div class="left">
+        <a class="link" href="matchmaking.html"><div class="content">Match-making</div></a>
+        <a class="link" href="landing.html"><div class="content">Forums</div></a>
+        <a class="link" href="landing.html"><div class="content">Resume</div></a>
+        <a class="link" href="landing.html"><div class="content">Skills</div></a>
+        <a class="link" href="landing.html"><div class="content">Personal Info</div></a>
+        <a class="link" href="landing.html"><div class="content">My Junior Reaches</div></a>
+		<a class="link" href=""><div onclick="location.href='logout.php'" </div></a>
+
+    </div>
+	
+			
+
+	
+	  <div class="bottom">
+        <input id="logout" type="button" value="Logout" onclick="window.location.href='logout.php';" >
+    </div>
+</body>
+</html>

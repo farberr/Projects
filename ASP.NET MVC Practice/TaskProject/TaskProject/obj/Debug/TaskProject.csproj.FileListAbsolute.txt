@@ -1,0 +1,164 @@
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\TaskProject.dll.config
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\TaskProject.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\TaskProject.pdb
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Antlr3.Runtime.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\EntityFramework.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\EntityFramework.SqlServer.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Google.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Web.Infrastructure.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Newtonsoft.Json.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Owin.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Helpers.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Mvc.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Optimization.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Razor.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Deployment.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Razor.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\WebGrease.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Helpers.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Mvc.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Optimization.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.Razor.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Deployment.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Razor.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Newtonsoft.Json.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Antlr3.Runtime.pdb
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\EntityFramework.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\EntityFramework.SqlServer.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Google.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\obj\Debug\TaskProject.dll
+c:\users\u13a03\documents\visual studio 2013\Projects\TaskProject\TaskProject\obj\Debug\TaskProject.pdb
+C:\MVC\project\TaskProject\TaskProject\bin\TaskProject.dll.config
+C:\MVC\project\TaskProject\TaskProject\bin\TaskProject.dll
+C:\MVC\project\TaskProject\TaskProject\bin\TaskProject.pdb
+C:\MVC\project\TaskProject\TaskProject\bin\Antlr3.Runtime.dll
+C:\MVC\project\TaskProject\TaskProject\bin\EntityFramework.dll
+C:\MVC\project\TaskProject\TaskProject\bin\EntityFramework.SqlServer.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Google.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Web.Infrastructure.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Newtonsoft.Json.dll
+C:\MVC\project\TaskProject\TaskProject\bin\Owin.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Helpers.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Mvc.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Optimization.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Razor.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.WebPages.Deployment.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.WebPages.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.WebPages.Razor.dll
+C:\MVC\project\TaskProject\TaskProject\bin\WebGrease.dll
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Helpers.xml
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Mvc.xml
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Optimization.xml
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.Razor.xml
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.WebPages.xml
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.WebPages.Deployment.xml
+C:\MVC\project\TaskProject\TaskProject\bin\System.Web.WebPages.Razor.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Newtonsoft.Json.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Antlr3.Runtime.pdb
+C:\MVC\project\TaskProject\TaskProject\bin\EntityFramework.xml
+C:\MVC\project\TaskProject\TaskProject\bin\EntityFramework.SqlServer.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Google.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\MVC\project\TaskProject\TaskProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\MVC\project\TaskProject\TaskProject\obj\Debug\TaskProject.csprojResolveAssemblyReference.cache
+C:\MVC\project\TaskProject\TaskProject\obj\Debug\TaskProject.dll
+C:\MVC\project\TaskProject\TaskProject\obj\Debug\TaskProject.pdb
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\TaskProject.dll.config
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\TaskProject.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\TaskProject.pdb
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Antlr3.Runtime.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\EntityFramework.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\EntityFramework.SqlServer.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Newtonsoft.Json.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Owin.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Helpers.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Mvc.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Optimization.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Razor.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\WebGrease.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Helpers.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Mvc.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Optimization.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.Razor.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Newtonsoft.Json.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Antlr3.Runtime.pdb
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\EntityFramework.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\EntityFramework.SqlServer.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\obj\Debug\TaskProject.csprojResolveAssemblyReference.cache
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\obj\Debug\TaskProject.dll
+C:\Users\farber\Desktop\Projects\TaskProject\TaskProject\obj\Debug\TaskProject.pdb

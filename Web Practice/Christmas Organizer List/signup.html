@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registration</title>
+		<meta charset="UTF-8" />
+		
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				// diverts form input to ajax, prevents default page update
+				$("#form").bind("submit", function(e) {
+					e.preventDefault();
+					
+					var err = "";
+
+					// Username and Password VALIDATION
+					if($.trim($("#username").val()) == "") {
+						err = addError(err, "Please enter a username.");
+					} else if ($.trim($("#username").val()).length < 4) {
+						err = addError(err, "Username must be at least 4 characters long.");
+					}
+					
+					if($.trim($("#password").val()) == "") {
+						err = addError(err, "Please enter a password.");
+					} else if ($("#password").val() != $("#cpassword").val()) {
+						err = addError(err, "Passwords do not match.");
+					} else if ($.trim($("#password").val()).length < 4) {
+						err = addError(err, "Password must be at least 4 characters long.");
+					}
+					
+					// inserts using signup.php asynchronously
+					if(err == "") {
+						$.ajax({
+							type : "POST",
+							url : "signup.php",
+							data : {
+								username : $("#username").val(),
+								password : $("#password").val()
+							},
+							success : function(data) {
+								if($.trim(data) == "false") {
+									$("#userMessage").html("Username already exists.");
+								} else {
+									$("#userMessage").html("Sign Up Successful");
+								}
+							}
+						});
+					} else {
+						alert(err);
+					}
+				});
+			});
+			
+			function addError(err, msg) {
+				if(err != "") {
+					err += "\n";
+				}
+				err += msg;
+				return err;
+			}
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<section id="page-wrapper">
+			<header>
+				Christmas List
+			</header>
+			<article>
+				<h3 id="userMessage"> </h3>
+				<form id="form" method="post" action="signup.php">
+					<fieldset>
+						<legend>Sign Up</legend>
+						<p>
+							<label for="username">Username:</label>
+							<input type="text" id="username" name="username" />
+							<span>At least 4 characters long.</span>
+						</p>
+						<p>
+							<label for="password">Password:</label>
+							<input type="password" id="password" name="password" />
+							<span>At least 4 characters long.</span>
+						</p>
+						<p>
+							<label for="cpassword">Confirm Password:</label>
+							<input type="password" id="cpassword" name="cpassword" />
+							
+						</p>
+						<p>
+							<label>&nbsp;</label>
+							<input type="submit" value="Sign Up" />
+							<input type="reset" value="Clear" />
+						</p>
+						<p>
+							<a href="index.html">Return to Login</a>
+						</p>
+					</fieldset>
+				</form>
+			</article>
+			<footer>
+				Merry Christmas!
+			</footer>
+		</section>
+	</body>
+</html>

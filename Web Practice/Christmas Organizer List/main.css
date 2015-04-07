@@ -1,0 +1,87 @@
+body {
+	background-color: #888888;
+	font-family: arial;
+}
+
+header, section, nav, footer, aside, article, div, img {
+	display: block;
+}
+
+a {
+	color: #9C0817;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #035221;
+}
+
+section#page-wrapper {
+	width: 960px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 18px;
+	box-shadow: 5px 5px 8px #000;
+	background-color: #ffffff;
+}
+
+header {
+	background-color: #9C0817;
+	color: #ffffff;
+	text-shadow: 3px 3px 5px #000;
+	border-radius: 18px;
+	box-shadow: 5px 5px 8px #035221;
+	text-align: center;
+	padding: 40px;
+	font-size: 40pt;
+}
+
+article {
+	padding: 20px;
+	margin: 20px 0;
+}
+
+footer {
+	background-color: #9C0817;
+	color: #ffffff;
+	text-shadow: 3px 3px 5px #000;
+	border-radius: 8px;
+	box-shadow: 5px 5px 8px #035221;
+	text-align: center;
+	padding: 10px;
+}
+
+fieldset {
+	border-radius: 18px;
+}
+
+fieldset label {
+	width: 10em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+}
+
+#todoList {
+	font-size: 16pt;
+	width: 500px;
+	list-style: decimal;
+}
+
+#todoList li {
+	border: 3px outset #ccc;
+	margin: 3px 0;
+	padding: 5px;
+}
+
+#todoList li a {
+	float: right;
+}
+
+#todoList li:nth-child(2n+1) {
+	background-color: #FFE3FE;
+}
+
+#todoList li:nth-child(2n+2) {
+	background-color: #E4E3FF;
+}

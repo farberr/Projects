@@ -1,0 +1,150 @@
+.top {
+    border-width: 1px;
+    position:absolute;
+    left:0;
+    right:0;
+    height: 130px;
+    background-color: #003366;
+    border:solid;
+    border-color: black;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    width: 100%;
+    min-width: 1300px;
+}
+#header{
+    text-align:center;
+    color: ghostwhite;
+}
+
+.chat {
+    position:fixed;
+    border:solid;
+    border-color: black;
+    border-width: 1px;
+    right:0;
+    height: auto !important;
+    top:140px;
+    bottom: 0;
+    width: 230px;
+    background-color: ghostwhite;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    min-height: 1000px;
+}
+.main {
+    align-content: center;
+    border-width: 1px;
+    height:100%;
+    position: absolute;
+    left:200px;
+    top:170px;
+    right:0;
+    bottom:0;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+
+}
+.left {
+    border-width: 1px;
+    position:absolute;
+    left:0;
+    height: auto !important;
+    top:140px;
+    bottom: 0;
+    width: 190px;
+    background-color: #003366;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    min-height: 1000px;
+}
+.content
+{
+    width:161px;
+    border-style:solid;
+    border-width: 1px;
+    color: #696969;
+    font-weight: 400;
+    background-color:#e6e6e6;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding:10px;
+    margin: 3px;
+}
+
+.image{
+    max-width:100%;
+    max-height:100%;
+    position:absolute;
+    left:400px;
+}
+.link:link, .link:active{
+    text-decoration:none;
+    color: black;
+}
+
+.link:hover, .link:visited{
+    text-decoration:none;
+    color:orangered;
+}
+textarea{
+    height:13px;
+    width:330px;
+}
+
+html{
+    background-color:ghostwhite;
+}
+
+.loginCube{
+    position:relative;
+    border:solid;
+    width: 700px; height: 400px;
+    color: #696969;
+    background-color:#e6e6e6;
+
+}
+.cube{
+    position:relative;
+    float: left;
+    border:solid;
+    width: 1050px; height: 500px;
+    color: #696969;
+    background-color:#e6e6e6;
+}
+
+h2{
+    text-align:center;
+    font-weight:bold;
+    text-shadow: 6px 7px 8px rgba(171, 150, 150, 1);
+}
+
+.login{
+
+    width:50%;
+}
+
+.topDescription{
+    text-align: center;
+    color:white;
+}
+
+.cube2{
+    position:relative;
+    float: left;
+    border:solid;
+    width: 1050px; height: 525px;
+    color: #696969;
+    background-color:#e6e6e6;
+}
+
+.logout {
+    position:absolute;
+	top:80px;
+	left:85%;
+	font-weight:bold;
+    #width:161px;
+    #border-style:solid;
+    #border-width: 1px;
+    color: #696969;
+    font-weight: 400;
+    #background-color:#e6e6e6;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding:10px;
+    margin: 3px;
+}

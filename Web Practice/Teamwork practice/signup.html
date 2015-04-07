@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+	
+	<!-- ****renamed the title****-->
+    <title>"The Reach Sign Up"</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="top">
+    <img src="http://i.imgur.com/Fy93Lfq.png" >
+    <div class="topDescription">
+        <p>
+            "Meet professionals in the field or mentor up and coming amateurs looking for help."
+        </p>
+    </div>
+
+</div>
+<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#form").bind("submit", function(e) {
+					e.preventDefault();
+					
+					var err = "";
+					
+					if($.trim($("#username").val()) == "") {
+						err = addError(err, "Please enter a username.");
+					} else if ($.trim($("#username").val()).length < 4) {
+						err = addError(err, "Username must be at least 4 characters long.");
+					}
+					
+					if($.trim($("#password").val()) == "") {
+						err = addError(err, "Please enter a password.");
+					} else if ($("#password").val() != $("#passwordConfirm").val()) {
+						err = addError(err, "Passwords do not match.");
+					} else if ($.trim($("#password").val()).length < 8) {
+						err = addError(err, "Password must be at least 8 characters long.");
+					}
+					
+					if(err == "") {
+						$.ajax({
+							type : "POST",
+							url : "signup.php",
+							data : {
+								username : $("#username").val(),
+								password : $("#password").val()
+							},
+							success : function(data) {
+								if($.trim(data) == "false") {
+									$("#userMessage").html("Username already exists.");
+								} else {
+									$("#userMessage").html("Sign Up Successful");
+									<!--Changed matchmaking.html to landing.html-->
+									window.location.href = "landing.html";
+								}
+							}
+						});
+					} else {
+						alert(err);
+					}
+				});
+			});
+			
+			function addError(err, msg) {
+				if(err != "") {
+					err += "\n";
+				}
+				
+				err += msg;
+				
+				return err;
+			}
+			
+		</script>
+
+<div class ="main" align="center">
+    <div class="loginCube" align="center" >
+        <h2>Mentors Register Here</h2>
+        <article class="login">
+
+            <form id="form" method="post" action="signup.php">
+                <fieldset>
+                    <legend>Sign Up</legend>
+                    <p>
+                        <label for="username">Desired Username:</label>
+                        <input type="text" name="username" id="username">
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password">
+                    </p>
+                    <p>
+                        <label for="passwordConfirm">Confirm:</label>
+                        <input type="password" name="passwordConfirm" id="passwordConfirm">
+                    </p>
+                    <p>
+                        <label>&nbsp;</label>
+                        <input type="submit" value="Register/Login">
+						<input type="reset" value="Clear" />
+                    </p>
+                </fieldset>
+            </form>
+            <p>
+                <a href="index.html">Back to Log-In</a>
+            </p>
+        </article>
+        <footer></footer>
+    </div>
+
+
+
+
+
+</body>
+</html>
